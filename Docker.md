@@ -75,3 +75,9 @@ cd docker-python
 sudo usermod -a -G docker $USER
 newgrp docker
 ```
+# 도커 컨테이너 실행
+```
+docker container run [OPTIONS] IMAGE [COMMAND] [ARG...] 
+# ex.
+docker container run --name temp -e env_var=env_value -it --rm image_name:ver
+```
