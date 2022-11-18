@@ -1,3 +1,5 @@
+# 나중에 노트로 싹 정리 코드까지
+
 # Tokenize
 - preprocessing
   - re
