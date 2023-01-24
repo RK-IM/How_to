@@ -57,3 +57,10 @@ plt.rc('font', family='NanumGothicCoding')
 import matplotlib as mpl
 mpl.rcParams['axes.unicode_minus'] = False
 ```
+### 그래도 안된다면!
+위 가상환경 내 mpl-data 경로 중 matplotlibrc 파일 수정
+```
+gedit /path/to/matplotlib/matplotlibrc
+```
+font.family: NanumGothic # 변경하려는 폰트로  
+편집 후 재시작
