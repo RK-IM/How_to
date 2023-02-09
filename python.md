@@ -64,3 +64,12 @@ gedit /path/to/matplotlib/matplotlibrc
 ```
 font.family: NanumGothic # 변경하려는 폰트로  
 편집 후 재시작
+
+# Tensorflow 
+## `libdevice not found at ./libdevice.10.bc` 에러 발생
+설치된 쿠다에 libdevice.10.bc가 설치되어있는지 확인 후  
+환경변수에 XLA_FLAGS 추가
+```
+export XLA_FLAGS=--xla_gpu_cuda_data_dir=/path/to/cuda
+```
+
